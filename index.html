@@ -23,60 +23,41 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>IMWebConf 2017</h1>
+					<h1>IMWebConf 2017前端开发者大会</h1>
 				</section>
 				<section>
 					<p>
-						开幕词
+						Now And The Future
 					</p>
 					<p>
-						Now and the Future
+						Web Assembly
 					</p>
 					<p>
-						PWA与AWP
+						TypeScript.js
 					</p>
 					<p>
-						Typescript
+						PWA与AMP
 					</p>
-
+					<p>
+						Node.js
+					</p>
 				</section>
 
-				<section>
-					<h2>开幕词</h2>
-				</section>
-
+				<!--w3c-->
 				<section>
 					<h2>
 						Now and the Future（w3c技术产品总经理）
 					</h2>
-
-					<section>
-						<p >
-							英语的重要性
-						</p>
-					</section>
 					<section>
 						<p style="text-align: left">
 							性能：<br>
-							requestAnimateFrame（帧级别的定时器）<br>
-							will-change（CSS动画的预加载）<br>
-							Web assembly（前端使用汇编）<br>
-							生命周期（参见vue等）
-						</p>
-					</section>
-					<section>
-						<p style="text-align: left">
-							安全：<br>
-							refer（预防csrf）<br>
-							httpOnly（预防XSS）<br>
-							authorization（存放身份信息）<br>
-							secure content（不太懂）
+							Web Assembly<br>
 						</p>
 					</section>
 					<section >
 						<p style="text-align: left">
 							通信<br>
-							<b> service worker</b><br>
+							<b> Service Worker</b><br>
 							消息推送（服务端主动推送消息）
 						</p>
 					</section>
@@ -88,43 +69,38 @@
 					</section>
 					<section>
 						<p style="text-align: left">
-							总结：前端发展越来越快，W3C会不会跟不上前端界的发展。Philippe老爷子很自信的回答：不会的，浏览器厂商一直在抱怨我们的标准制定的太快了，他们来不及实现。年轻人，<b> 先有标准</b>，才有浏览器实现。
+							问题：前端发展越来越快，W3C会不会跟不上前端界的发展。<b> 先有标准</b>，才有浏览器实现。
 						</p>
 					</section>
 				</section>
+				<!--Web Assembly-->
 				<section>
 					<h2>
-						PWA与AWP（google开发者平台工程师）
+						Web Assembly
 					</h2>
-						<section>
-							<p>
-								1:APP的使用量远远大于Web<br>
-								2:用户在top3的APP上花了80%的时间<br>
-							</p>
-						</section>
-						<section>
-							<p>
-								前端程序员提出了AMP。AMP是一种规范，用来提高网页加载速度，想要给用户带来和原生APP一样的体验。<br>
-							</p>
-						</section>
-						<section>
-							<p>
-								使用图片、视频资源，必须指定长宽，防止回流（重新渲染）造成的卡顿<br>
-								不允许使用同步JS<br>
-								不允许在页面直接引用第三方JS（可以封装组件）<br>
-								只允许内联CSS
-							</p>
-						</section>
-						<section>
-							<p>
-								总结：这样实现和long cache有什么区别呢？这种实现方式是浏览器放权的一种思想，将资源加载完全交由开发者处理。
-							</p>
-						</section>
-
+					<section>
+						<img src="imges/IMWebConf/web a(1).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/web a(2).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/web a(3).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/web a(4).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/web a(5).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/web a(6).png" alt="1">
+					</section>
 				</section>
+				<!--ts-->
 				<section>
 					<h2>
-						Typescript（微软typescript专家）
+						TypeScript（微软TypeScript专家）
 					</h2>
 					<section>
 						<p>
@@ -138,28 +114,105 @@
 					</section>
 					<section>
 						<p>
-							ts和vscode可以让我们65%的时间在读代码，20%的时间在改bug，15%的时间在写需求
+							TypeScript和vscode可以让我们65%的时间在读代码，20%的时间在改bug，15%的时间在写需求
+						</p>
+					</section>
+					<section>
+						<p>
+							这个语言是强类型的，所以程序猿们需要指定类型，然后把它编译成 Javacript
 						</p>
 					</section>
 				</section>
+				<!--pwa-->
 				<section>
 					<h2>
-						上半场回顾总结
+						AMP与PWA（google开发者平台工程师）
 					</h2>
 					<section>
 						<p>
-							上午总4场技术分享，主要是谈到未来的发展，有W3C方面推出的新特性，浏览器厂商权限收回，以及现代新思维下的时间分配调整从而衍生出来的超集语言解决方案
+							1:APP的使用量远远大于Web<br>
+							2:用户在top3的APP上花了80%的时间<br>
 						</p>
 					</section>
+					<section>
+						<p>
+							前端程序员提出了AMP。AMP是一种规范，用来提高网页加载速度，想要给用户带来和原生APP一样的体验。<br>
+						</p>
+					</section>
+					<section>
+						<p>
+							使用图片、视频资源，必须指定长宽，防止回流（重新渲染）造成的卡顿<br>
+							不允许使用同步JS<br>
+							不允许在页面直接引用第三方JS（可以封装组件）<br>
+							只允许内联CSS
+						</p>
+					</section>
+					<section>
+						<img src="imges/IMWebConf/pwa(1).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/pwa(2).png" alt="1">
+					</section>
+					<section>
+						Service Workers<br>
+						PWA 的核⼼基础
+					</section>
+					<section>
+						<p>
+							总结：这种实现方式是浏览器厂商放权的一种思想，将资源加载完全交由开发者处理。
+						</p>
+					</section>
+				</section>
+				<!--node-->
+				<section>
+					<h2>
+						愈演愈烈的Node.js
+					</h2>
+					<section>
+						<img src="imges/IMWebConf/node(1).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/node(2).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/node(3).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/node(4).png" alt="1">
+					</section>
+					<section>
+						<img src="imges/IMWebConf/node(5).png" alt="1">
+					</section>
+				</section>
 
+				<!--summary-->
+				<section>
+					<h2>
+						回顾总结
+					</h2>
+					<section>
+						<p>
+							从w3c开始谈 <b> 现在</b>到 <b> 未来 </b>的发展与新特性
+						</p>
+					</section>
+					<section>
+						<p>
+							在这些特性后衍生出来的Type Sctipt超集语言和Web Assembly解决方案
+						</p>
+					</section>
+					<section>
+						<p>
+							AMP以快速为首要目的 PWA主动推送信息和浏览器厂商权限收回
+						</p>
+					</section>
+					<section>
+						<p>
+							以及使用Node.js来贯穿整个流程
+						</p>
+					</section>
 				</section>
 			</div>
-
-
 		</div>
-
-
-
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
